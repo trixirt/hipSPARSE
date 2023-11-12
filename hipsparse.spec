@@ -18,7 +18,7 @@
 # export QA_RPATHS=0xff
 %bcond_with test
 
-# Fortran and clang rpm macros do not mix
+# gfortran and clang rpm macros do not mix
 %global build_fflags %{nil}
 
 Name:           hipsparse
